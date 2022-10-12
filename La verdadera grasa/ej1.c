@@ -63,3 +63,31 @@ int main (void){
 //     m.m4_l1 = integer;
 //     return _syscall(PM_PROC_NR,MYCALL,&m);
 // }
+
+
+
+
+
+
+
+
+
+// int sem_wait(semaphore * sem)
+
+// {
+
+// pthread_mutex_lock(&sem_mutex);
+
+// if(sem->value == 0)
+
+// {
+
+// pthread_cond_wait(&sem_cond, &sem_mutex);
+
+// }
+
+// sem->value -=1;
+
+// pthread_mutex_unlock(&sem_mutex_unlock(&sem_mutex);
+
+// }
