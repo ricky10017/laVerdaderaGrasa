@@ -91,3 +91,48 @@ int main (void){
 // pthread_mutex_unlock(&sem_mutex_unlock(&sem_mutex);
 
 // }
+
+
+
+
+
+
+// if(argc == 2){
+
+// fprintf(stderr,”usage: %d processes\n”,argv[0]);
+
+// return 1;
+
+// }
+
+// n = 
+
+// for( int i = 0; i < n; i++){
+
+// if(fork() == 0{
+
+// fprintf(stderr, "i: %d process ID: %ld parent ID: %ld child ID: %ld ", i, (long)getpid(), (long)getppid(), (long)childpid);
+
+// exit(0);
+
+// }
+
+// else if (fork() < 0){
+
+// fprintf(stderr, "i: %d process ID: %ld parent ID: %ld child ID: %ld ", i, (long)getpid(), (long)getppid(), (long)childpid);
+
+// }
+
+// else {
+
+// fprintf(stderr, "i: %d process ID: %ld parent ID: %ld child ID: %ld ", i, (long)getpid(), (long)getppid(), (long)childpid);
+
+// exit(0);
+
+// }
+
+// }
+
+// return 0;
+
+// }
