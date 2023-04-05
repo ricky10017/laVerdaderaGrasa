@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//hola
+ 
 pthread_t *tid;
 pthread_mutex_t *stones;
 
